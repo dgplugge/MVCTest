@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b23169c3-0ae5-4fc2-bdfd-70daecabebb2" name="plugged@NCI-01888648 2013-07-15 17:39:02" runUser="NIH\plugged" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="2156cd42-4f01-4204-956a-04996f70a8ee">
+    <Deployment runDeploymentRoot="plugged_NCI-01888648 2013-07-15 17_39_02">
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\MVCTDDWork\bin\MVCTDDWork.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-15T17:39:02.2784496-04:00" queuing="2013-07-15T17:39:02.5254743-04:00" start="2013-07-15T17:39:02.5284746-04:00" finish="2013-07-15T17:39:02.6724890-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyLoginControllerExists" storage="m:\mycode\mvc\mvctddwork\mvctddwork.tests\bin\debug\mvctddwork.tests.dll" id="e709b664-3bd2-b182-2711-c863994b7133">
+      <Execution id="d0422633-2519-40e2-bfc2-5cb140c66041" />
+      <TestMethod codeBase="M:/MyCode/MVC/MVCTDDWork/MVCTDDWork.Tests/bin/Debug/MVCTDDWork.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MVCTDDWork.Tests.LoginControllerTest, MVCTDDWork.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyLoginControllerExists" />
+    </UnitTest>
+    <UnitTest name="Index" storage="m:\mycode\mvc\mvctddwork\mvctddwork.tests\bin\debug\mvctddwork.tests.dll" id="f9b0b72a-0fea-ab8b-6c95-2c72db8ca7ea">
+      <Execution id="d8cca6dd-69d9-416b-aed6-c3d55cae8f39" />
+      <TestMethod codeBase="M:/MyCode/MVC/MVCTDDWork/MVCTDDWork.Tests/bin/Debug/MVCTDDWork.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MVCTDDWork.Tests.HomeControllerTest, MVCTDDWork.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="About" storage="m:\mycode\mvc\mvctddwork\mvctddwork.tests\bin\debug\mvctddwork.tests.dll" id="47cdf033-07c0-dbc1-0b20-df93b3fc9788">
+      <Execution id="b1e520bc-59f3-4b71-9bc5-638eb47a2a37" />
+      <TestMethod codeBase="M:/MyCode/MVC/MVCTDDWork/MVCTDDWork.Tests/bin/Debug/MVCTDDWork.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MVCTDDWork.Tests.HomeControllerTest, MVCTDDWork.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="m:\mycode\mvc\mvctddwork\mvctddwork.tests\bin\debug\mvctddwork.tests.dll" id="3efcfbb3-4b42-2462-c93c-de4c0fd750a0">
+      <Execution id="7192b41f-6540-4b44-b287-07004a83f78b" />
+      <TestMethod codeBase="M:/MyCode/MVC/MVCTDDWork/MVCTDDWork.Tests/bin/Debug/MVCTDDWork.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MVCTDDWork.Tests.HomeControllerTest, MVCTDDWork.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3efcfbb3-4b42-2462-c93c-de4c0fd750a0" executionId="7192b41f-6540-4b44-b287-07004a83f78b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47cdf033-07c0-dbc1-0b20-df93b3fc9788" executionId="b1e520bc-59f3-4b71-9bc5-638eb47a2a37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e709b664-3bd2-b182-2711-c863994b7133" executionId="d0422633-2519-40e2-bfc2-5cb140c66041" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9b0b72a-0fea-ab8b-6c95-2c72db8ca7ea" executionId="d8cca6dd-69d9-416b-aed6-c3d55cae8f39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7192b41f-6540-4b44-b287-07004a83f78b" testId="3efcfbb3-4b42-2462-c93c-de4c0fd750a0" testName="Contact" computerName="NCI-01888648" duration="00:00:00.0162865" startTime="2013-07-15T17:39:02.5304748-04:00" endTime="2013-07-15T17:39:02.6564874-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7192b41f-6540-4b44-b287-07004a83f78b">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1e520bc-59f3-4b71-9bc5-638eb47a2a37" testId="47cdf033-07c0-dbc1-0b20-df93b3fc9788" testName="About" computerName="NCI-01888648" duration="00:00:00.0002285" startTime="2013-07-15T17:39:02.6574875-04:00" endTime="2013-07-15T17:39:02.6594877-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1e520bc-59f3-4b71-9bc5-638eb47a2a37">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0422633-2519-40e2-bfc2-5cb140c66041" testId="e709b664-3bd2-b182-2711-c863994b7133" testName="VerifyLoginControllerExists" computerName="NCI-01888648" duration="00:00:00.0003749" startTime="2013-07-15T17:39:02.6604878-04:00" endTime="2013-07-15T17:39:02.6624880-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0422633-2519-40e2-bfc2-5cb140c66041">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8cca6dd-69d9-416b-aed6-c3d55cae8f39" testId="f9b0b72a-0fea-ab8b-6c95-2c72db8ca7ea" testName="Index" computerName="NCI-01888648" duration="00:00:00.0002173" startTime="2013-07-15T17:39:02.6624880-04:00" endTime="2013-07-15T17:39:02.6644882-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8cca6dd-69d9-416b-aed6-c3d55cae8f39">
+    </UnitTestResult>
+  </Results>
+</TestRun>

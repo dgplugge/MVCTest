@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d19bcabc-35e5-4c29-9e68-f0ef64c95625" name="plugged@NCI-01888648 2013-07-15 17:29:01" runUser="NIH\plugged" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="103f5577-1772-425b-9ace-3f95dcf44bfa">
+    <Deployment runDeploymentRoot="plugged_NCI-01888648 2013-07-15 17_29_01">
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\MVCTDDWork\bin\MVCTDDWork.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="M:\MyCode\MVC\MVCTDDWork\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-15T17:29:01.2163494-04:00" queuing="2013-07-15T17:29:02.1544432-04:00" start="2013-07-15T17:29:02.2374515-04:00" finish="2013-07-15T17:29:02.7355013-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyLoginControllerExists" storage="m:\mycode\mvc\mvctddwork\mvctddwork.tests\bin\debug\mvctddwork.tests.dll" id="e709b664-3bd2-b182-2711-c863994b7133">
+      <Execution id="2e229f43-ecf3-4bd9-85fd-5c97643cce79" />
+      <TestMethod codeBase="M:/MyCode/MVC/MVCTDDWork/MVCTDDWork.Tests/bin/Debug/MVCTDDWork.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MVCTDDWork.Tests.LoginControllerTest, MVCTDDWork.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyLoginControllerExists" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e709b664-3bd2-b182-2711-c863994b7133" executionId="2e229f43-ecf3-4bd9-85fd-5c97643cce79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e229f43-ecf3-4bd9-85fd-5c97643cce79" testId="e709b664-3bd2-b182-2711-c863994b7133" testName="VerifyLoginControllerExists" computerName="NCI-01888648" duration="00:00:00.1606855" startTime="2013-07-15T17:29:02.3004578-04:00" endTime="2013-07-15T17:29:02.7084986-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e229f43-ecf3-4bd9-85fd-5c97643cce79">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MVCTDDWork.Tests.LoginControllerTest.VerifyLoginControllerExists threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at MVCTDDWork.LoginController.Login() in M:\MyCode\MVC\MVCTDDWork\MVCTDDWork\LoginController.vb:line 5
+   at MVCTDDWork.Tests.LoginControllerTest.VerifyLoginControllerExists() in M:\MyCode\MVC\MVCTDDWork\MVCTDDWork.Tests\Controllers\LoginControllerTest.vb:line 11
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
